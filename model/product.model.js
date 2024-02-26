@@ -1,6 +1,6 @@
-//ref to mongoose module
 const mongoose = require("mongoose");
-//our product class "Schema", and all the required INFO
+
+//this is for creating a schema of products in db
 const ProductSchema = mongoose.Schema(
   {
     name: {
@@ -26,7 +26,6 @@ const ProductSchema = mongoose.Schema(
     timestamps: true,
   }
 );
-//this is for creating a collections of products in db
+
 const Product = mongoose.model("Product", ProductSchema);
-//using the exports keyword to make it available for import in other file
 module.exports = Product;
