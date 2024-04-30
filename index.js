@@ -14,7 +14,7 @@ app.use("/api/products", productRoute);
 
 //Post Something on the root of the website
 app.get("/", (req, res) => {
-  res.send("Hello From Node Api Updated");
+  res.send("Hello From Node Api");
 });
 
 /*
