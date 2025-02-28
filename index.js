@@ -22,10 +22,10 @@ app.get("/", (req, res) => {
  */
 mongoose
   .connect(
-    "mongodb+srv://Admin:1234567891@cluster0.9vnirob.mongodb.net/Node-Api?retryWrites=true&w=majority"
+    "mongodb://localhost:27017/product-api"
   )
   .then(() => {
-    console.log("Connected To Data Base");
+    console.log("Connected To Local Database");
     app.listen(3000, () => {
       console.log("Server is Running on 3000 Port");
     });
