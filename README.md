@@ -17,6 +17,10 @@ A robust REST API built with Node.js, Express.js, and MongoDB, implementing CRUD
 - MongoDB
 - Mongoose ODM
 - Body Parser
+- dotenv
+- express-async-handler
+- morgan
+- cors
 
 ## Getting Started
 
@@ -47,12 +51,12 @@ The server will start on port 3000.
 ## Development Roadmap
 
 ### Phase 1: Foundation & Security (Week 1-2)
-- [ ] Implement environment variables (dotenv)
-- [ ] Add input validation
-- [ ] Set up proper error handling
-- [ ] Implement basic authentication
-- [ ] Add request logging
-- [ ] Implement CORS security
+- [x] Implement environment variables (dotenv)
+- [x] Add input validation
+- [x] Set up proper error handling
+- [x] Implement basic authentication
+- [x] Add request logging
+- [x] Implement CORS security
 
 ### Phase 2: Enhanced Features (Week 3-4)
 - [ ] Add user management system
